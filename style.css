@@ -66,9 +66,9 @@ header div p:hover {
 }
 
 .introduction {
-    width: 400px;
-    margin: 100px 550px;
+    padding: 100px;
     text-align: center;
+    background: #140014;
 }
 
 .introduction .fade-in {
@@ -293,6 +293,10 @@ body.light-mode header div p:hover {
     color: white;
 }
 
+body.light-mode .introduction{
+    background: #f5c5ff;
+}
+
 body.light-mode .introduction p {
     color: #333;
 }
@@ -344,7 +348,7 @@ body.light-mode .social-icons i {
 @media (max-width: 992px) {
     .introduction {
         width: 90%;
-        margin: 100px auto;
+        padding: 70px 25px;
     }
 
     #About div {
