@@ -66,17 +66,17 @@ header div p:hover {
     color: #fff;
 }
 
-#Lesson {
-    margin: 150px 200px;
+#videos {
+    margin: 100px 200px;
 }
 
-#Lesson h1 , p {
+#videos h1 {
     text-align: center;
     color: violet;
-    margin: 0;
+    margin-bottom: 50px;
 }
 
-#Lesson main {
+#videos main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -84,7 +84,7 @@ header div p:hover {
     padding: 10px;
 }
 
-#Lesson main div{
+#videos main div{
     width: 300px;
     height: 350px;
     padding: 10px;
@@ -93,17 +93,17 @@ header div p:hover {
     box-shadow: 0px 0px 3px 2px #ee82ee32;
 }
 
-#Lesson main div video{
+#videos main div iframe{
     border-radius: 20px;
     height: 250px;
     width: 99%;
 }
 
-#Lesson main div p{
+#videos main div p{
     color: violet;
 }
 
-#Lesson main div button{
+#videos main div button{
     border: none;
     margin: 10px 70px;
     width: 150px;
@@ -115,7 +115,7 @@ header div p:hover {
     transition: 0.3s;
 }
 
-#Lesson main div button:hover{
+#videos main div button:hover{
     background: #fff;
     color: violet;
 }
@@ -256,16 +256,8 @@ body.light-mode header div p:hover {
     color: white;
 }
 
-body.light-mode .introduction p {
-    color: #333;
-}
-
-body.light-mode #About pre {
-    color: #222;
-}
-
-body.light-mode #Publications .parent main {
-    background: #d896ff;
+body.light-mode #videos main div{
+    background: #f8d9fe;
 }
 
 body.light-mode #contact {
